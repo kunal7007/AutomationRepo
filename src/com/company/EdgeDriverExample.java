@@ -18,7 +18,7 @@ public class EdgeDriverExample {
         driver.findElement(By.id("pass")).sendKeys("7378770855");
         Thread.sleep(1000);
         driver.findElement(By.name("login")).click();
-        Thread.sleep(7000);
+        Thread.sleep(7000)
         driver.close();
 
     }
